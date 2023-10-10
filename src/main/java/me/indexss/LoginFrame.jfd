@@ -1,0 +1,126 @@
+JFDML JFormDesigner: "8.1.0.0.283" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"$sizePolicy": 1
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "邮箱地址："
+				"font": new java.awt.Font( ".AppleSystemUIFont", 0, 16 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 50
+				"y": 80
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "密码："
+				"font": new java.awt.Font( ".AppleSystemUIFont", 0, 16 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 82
+				"y": 118
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "SMTP服务器："
+				"font": new java.awt.Font( ".AppleSystemUIFont", 0, 16 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 23
+				"y": 153
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "POP3服务器："
+				"font": new java.awt.Font( ".AppleSystemUIFont", 0, 16 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 24
+				"y": 189
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 140
+				"y": 70
+				"width": 290
+				"height": 37
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordField1"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 140
+				"y": 109
+				"width": 290
+				"height": 37
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 140
+				"y": 145
+				"width": 290
+				"height": 37
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField3"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 140
+				"y": 181
+				"width": 290
+				"height": 37
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "确认配置"
+				"font": new java.awt.Font( ".AppleSystemUIFont", 1, 16 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 45
+				"y": 235
+				"width": 105
+				"height": 35
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "\ud83c\udf1f登陆配置"
+				"font": new java.awt.Font( ".AppleSystemUIFont", 0, 24 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 190
+				"y": 15
+				"width": 315
+				"height": 40
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "打开收件"
+				"font": new java.awt.Font( ".AppleSystemUIFont", 1, 14 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 190
+				"y": 235
+				"width": 105
+				"height": 35
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "打开写信"
+				"font": static java.awt.Font getFont( new java.util.HashMap {
+					put( sfield java.awt.font.TextAttribute SIZE, 14.0f )
+					put( sfield java.awt.font.TextAttribute KERNING, 1 )
+					put( sfield java.awt.font.TextAttribute FAMILY, ".AppleSystemUIFont" )
+					put( sfield java.awt.font.TextAttribute WEIGHT, 2.0f )
+				} )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 335
+				"y": 235
+				"width": 105
+				"height": 35
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 155, 140 )
+			"size": new java.awt.Dimension( 485, 315 )
+		} )
+	}
+}
